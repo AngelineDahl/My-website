@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="table-container">
+  <h1>{{ page.title }}</h1>
+
+  <table>
+    {{ content }}
+  </table>
+</div>
+
+<style>
+.table-container {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+</style>
