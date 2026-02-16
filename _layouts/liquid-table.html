@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="liquid-table-container">
+  <h1>{{ page.title }}</h1>
+
+  <table>
+    <tr>
+      <th>Strengths</th>
+      <th>Weaknesses</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          {% for item in page.reynolds.strengths %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </td>
+      <td>
+        <ul>
+          {% for item in page.reynolds.weaknesses %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <ul>
+          {% for item in page.gosling.strengths %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </td>
+      <td>
+        <ul>
+          {% for item in page.gosling.weaknesses %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  {{ content }}
+</div>
+
+<style>
+.liquid-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.liquid-table-container th,
+.liquid-table-container td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+</style>
