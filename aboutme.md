@@ -1,16 +1,21 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+# About Me
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My name is Angeline Dahl. I am a Biomedical Assembler at Medtronic and a graduate student in Program Evaluation & Data Analytics. I’m passionate about data, public service, and building a meaningful career that aligns with my values.
 
-What else do you need?
+## What I’m Working On
+- Master’s degree at Arizona State University  
+- Advancing toward a Management Analyst role  
+- Strengthening my technical skills in R, data wrangling, and analytics  
 
-### My story
+## What I Value
+- Growth  
+- Integrity  
+- Purpose-driven work  
+- Learning new technical skills  
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Thanks for visiting my site.
