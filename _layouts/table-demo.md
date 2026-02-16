@@ -1,28 +1,28 @@
 ---
-layout: table
-title: Table Demo
+layout: liquid-table
+title: 'amiright?'
+reynolds:
+  strengths:
+    - good father
+    - funny
+    - dated alanis morissette
+  weaknesses:
+    - singing
+    - green lantern movie
+    - tennis backhand
+gosling:
+  strengths:
+    - builds houses
+    - is a real boy
+    - never dated alanis morissette
+  weaknesses:
+    - micky mouse club
+    - cries a lot
+    - not ryan reynolds
 ---
 
-<tr>
-  <th>Fruit</th>
-  <th>Color</th>
-  <th>Price</th>
-</tr>
+![](img/ryan-v-ryan.jpg)
 
-<tr>
-  <td>Apple</td>
-  <td>Red</td>
-  <td>$1.00</td>
-</tr>
+### Lorem Ipsum
 
-<tr>
-  <td>Banana</td>
-  <td>Yellow</td>
-  <td>$0.50</td>
-</tr>
-
-<tr>
-  <td>Grapes</td>
-  <td>Purple</td>
-  <td>$2.00</td>
-</tr>
+Lorem ipsum dolor sit amet...
