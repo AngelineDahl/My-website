@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<img src="assets/img/ryan-v-ryan.jpg" style="width:100%; max-width:600px;">
+
+<table>
+  <tr>
+    <th>Ryan Reynolds – Strengths</th>
+    <th>Ryan Reynolds – Weaknesses</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        {% for item in page.reynolds.strengths %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {% for item in page.reynolds.weaknesses %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <th>Ryan Gosling – Strengths</th>
+    <th>Ryan Gosling – Weaknesses</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        {% for item in page.gosling.strengths %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {% for item in page.gosling.weaknesses %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<div>
+  {{ content }}
+</div>
+
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+</style>
