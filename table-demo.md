@@ -1,6 +1,6 @@
 ---
 layout: liquid-table
-title: 'amiright?'
+title: "amiright?"
 reynolds:
   strengths:
     - good father
@@ -20,6 +20,7 @@ gosling:
     - cries a lot
     - not ryan reynolds
 ---
+
 ### Lorem Ipsum
 
 Lorem ipsum dolor sit amet…
